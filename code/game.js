@@ -20,7 +20,7 @@ function Level(plan) {
       var ch = line[x], fieldType = null;
 
       // Use if and else to handle the two cases
-      if (ch == "x")
+      if (ch == "X")
         fieldType = "wall";
       // Because there is a third case (space ' '), use an "else if" instead of "else"
       else if (ch == "!")
